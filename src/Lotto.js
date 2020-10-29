@@ -11,11 +11,11 @@ class Lotto extends Component {
     let number;
     for (let i = 0; i < 7; i++) {
       if (i === 6) {
-        number = Math.floor(Math.random() * 10);
+        number = Math.ceil(Math.random() * 10);
       } else {
-        number = Math.floor(Math.random() * 50);
+        number = Math.ceil(Math.random() * 49);
         while (arr.includes(number)) {
-          number = Math.floor(Math.random() * 50);
+          number = Math.ceil(Math.random() * 49);
         }
       }
 
