@@ -1,0 +1,23 @@
+.show-number {
+  border: 70px solid lightblue;
+  border-radius: 50%;
+  margin: 10px;
+  display: inline-block;
+  font-size: 30px;
+  background-color: lightblue;
+}
+.btn {
+  border: 2px solid rgb(176, 176, 224);
+  width: 400px;
+  height: 70px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.div-number {
+  display: inline-block;
+}
+
+.btn:hover {
+  font-size: larger;
+}
